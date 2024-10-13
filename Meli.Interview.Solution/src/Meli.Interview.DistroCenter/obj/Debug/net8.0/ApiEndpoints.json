@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "Meli.Interview.DistroCenter.Controllers.DistrosCenterController",
+    "Method": "GetCentroDeDistribuicao",
+    "RelativePath": "api/DistrosCenter/GetCentroDeDistribuicao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCentroDeDistribuicao"
+  },
+  {
+    "ContainingType": "Meli.Interview.DistroCenter.Controllers.DistrosCenterController",
+    "Method": "GetCentroDistribuicaoProximoItem",
+    "RelativePath": "api/DistrosCenter/GetCentroDistribuicaoProximoItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Codigo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EnderecoCompleto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ItemID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyCollection\u00601[[Meli.Interview.Domain.DTO.CentroDistribuicaoDTO, Meli.Interview.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCentroDistribuicaoProximoItem/{itemCD}"
+  },
+  {
+    "ContainingType": "Meli.Interview.DistroCenter.Controllers.DistrosCenterController",
+    "Method": "GetDistrosCenterByCodigoCD",
+    "RelativePath": "api/DistrosCenter/GetDistrosCenterByCodigoCD/GetDistrosCenterByCodigoCD/{IdCD}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCD",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Meli.Interview.Domain.DTO.CentroDistribuicaoDTO, Meli.Interview.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Meli.Interview.DistroCenter.Controllers.DistrosCenterController",
+    "Method": "GetDistrosCenterByItemCD",
+    "RelativePath": "api/DistrosCenter/GetDistrosCenterByItemCD/GetDistrosCenterByItemCDAsync/{itemId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Meli.Interview.Domain.DTO.CentroDistribuicaoDTO, Meli.Interview.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

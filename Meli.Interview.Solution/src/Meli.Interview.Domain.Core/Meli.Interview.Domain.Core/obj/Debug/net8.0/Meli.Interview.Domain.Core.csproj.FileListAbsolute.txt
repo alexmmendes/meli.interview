@@ -1,0 +1,12 @@
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\bin\Debug\net8.0\Meli.Interview.Domain.Core.deps.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\bin\Debug\net8.0\Meli.Interview.Domain.Core.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\bin\Debug\net8.0\Meli.Interview.Domain.Core.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.csproj.AssemblyReference.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.AssemblyInfo.cs
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\refint\Meli.Interview.Domain.Core.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\Meli.Interview.Domain.Core.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain.Core\Meli.Interview.Domain.Core\obj\Debug\net8.0\ref\Meli.Interview.Domain.Core.dll

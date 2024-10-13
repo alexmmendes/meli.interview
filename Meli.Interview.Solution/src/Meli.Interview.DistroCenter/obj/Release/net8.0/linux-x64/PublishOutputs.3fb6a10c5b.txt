@@ -1,0 +1,11 @@
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.DistroCenter
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.DistroCenter.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.DistroCenter.deps.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.DistroCenter.runtimeconfig.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.DistroCenter.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.DistroCenter\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

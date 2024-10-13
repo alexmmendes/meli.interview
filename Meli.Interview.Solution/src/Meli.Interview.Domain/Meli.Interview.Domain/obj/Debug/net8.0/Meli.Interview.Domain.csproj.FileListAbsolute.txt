@@ -1,0 +1,12 @@
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\bin\Debug\net8.0\Meli.Interview.Domain.deps.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\bin\Debug\net8.0\Meli.Interview.Domain.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\bin\Debug\net8.0\Meli.Interview.Domain.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.csproj.AssemblyReference.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.AssemblyInfoInputs.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.AssemblyInfo.cs
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\refint\Meli.Interview.Domain.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\Meli.Interview.Domain.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\src\Meli.Interview.Domain\Meli.Interview.Domain\obj\Debug\net8.0\ref\Meli.Interview.Domain.dll

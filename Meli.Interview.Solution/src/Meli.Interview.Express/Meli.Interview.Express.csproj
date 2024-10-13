@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>e20456ea-ac8b-43ab-bf3d-18b93658e4ad</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Meli.Interview.CrossCutting\Meli.Interview.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Meli.Interview.Application\Meli.Interview.Application\Meli.Interview.Application.csproj" />
+    <ProjectReference Include="..\Meli.Interview.Domain\Meli.Interview.Domain\Meli.Interview.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

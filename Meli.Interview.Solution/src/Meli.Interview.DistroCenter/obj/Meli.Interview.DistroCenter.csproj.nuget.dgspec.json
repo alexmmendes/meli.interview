@@ -1,0 +1,474 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.DistroCenter\\Meli.Interview.DistroCenter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\Meli.Interview.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\Meli.Interview.CrossCutting.IoC.csproj",
+        "projectName": "Meli.Interview.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\Meli.Interview.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\Meli.Interview.Application.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\Meli.Interview.Application.csproj"
+              },
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\Meli.Interview.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\Meli.Interview.Application.csproj",
+        "projectName": "Meli.Interview.Application",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\Meli.Interview.Application.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Application\\Meli.Interview.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj"
+              },
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj"
+              },
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "GoogleApi": {
+              "target": "Package",
+              "version": "[5.4.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.DistroCenter\\Meli.Interview.DistroCenter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.DistroCenter\\Meli.Interview.DistroCenter.csproj",
+        "projectName": "Meli.Interview.DistroCenter",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.DistroCenter\\Meli.Interview.DistroCenter.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.DistroCenter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\Meli.Interview.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\Meli.Interview.CrossCutting\\Meli.Interview.CrossCutting.IoC.csproj"
+              },
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj",
+        "projectName": "Meli.Interview.Domain.Core",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj",
+        "projectName": "Meli.Interview.Domain",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj",
+        "projectName": "Meli.Interview.Infra.Data",
+        "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\Meli.Interview.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core\\Meli.Interview.Domain.Core.csproj"
+              },
+              "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj": {
+                "projectPath": "C:\\Users\\alexm\\source\\repos\\Meli.Interview.Solution\\src\\Meli.Interview.Domain\\Meli.Interview.Domain\\Meli.Interview.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

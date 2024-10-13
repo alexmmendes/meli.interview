@@ -1,0 +1,11 @@
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Meli.Interview.Express.exe
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\appsettings.Development.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\appsettings.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Meli.Interview.Express.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Meli.Interview.Express.deps.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Meli.Interview.Express.runtimeconfig.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Meli.Interview.Express.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Microsoft.OpenApi.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Express\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

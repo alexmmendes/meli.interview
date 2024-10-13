@@ -1,0 +1,6 @@
+@Meli.Interview.Bff_HostAddress = http://localhost:5097
+
+GET {{Meli.Interview.Bff_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

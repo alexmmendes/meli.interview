@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Meli.Interview.DistroCenter.props" />
+</Project>
