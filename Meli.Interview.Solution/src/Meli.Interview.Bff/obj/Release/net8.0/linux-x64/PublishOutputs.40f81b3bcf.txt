@@ -1,0 +1,11 @@
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.Bff
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.Bff.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.Bff.deps.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.Bff.runtimeconfig.json
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Meli.Interview.Bff.pdb
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexm\source\repos\Meli.Interview.Solution\Meli.Interview.Bff\Meli.Interview.Bff\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
