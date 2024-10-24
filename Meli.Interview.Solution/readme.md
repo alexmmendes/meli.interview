@@ -6,47 +6,10 @@
 4. **Google Maps** retorna a distância calculada, e a API `DistroCenter` usa essa informação para determinar o centro de distribuição mais próximo.
 5. **Resposta** é enviada de volta ao **BFF**, que a encaminha para o **Frontend**.
 
-## Diagramas de Arquitetura
-
 ### Diagrama de arquitetura para o projeto:
 
-    +------------------------------------------------------+
-    |                    Camada de Apresentação            |
-    |           (Frontend: Aplicações Web ou Mobile)      |
-    |                     |                                |
-    |                     v                                |
-    |             +---------------------+                  |
-    |             | Meli.Interview.BFF  |                  |
-    |             |  (Backend for       |                  |
-    |             |   Frontends)        |                  |
-    |             +---------------------+                  |
-    |                     |                                |
-    |                     v                                |
-    |         +---------------------------+                |
-    |         |       Microserviços       |                |
-    |         |                           |                |
-    |         |  +---------------------+  |                |
-    |         |  | Meli.Interview.     |  |                |
-    |         |  | Express             |  |                |
-    |         |  +---------------------+  |                |
-    |         |  |  Rotas:             |  |                |
-    |         |  |  /api/produto       |  |                |
-    |         |  |  /api/pedido        |  |                |
-    |         |  +---------------------+  |                |
-    |         |                           |                |
-    |         |  +---------------------+  |                |
-    |         |  | Meli.Interview.     |  |                |
-    |         |  | DistroCenter        |  |                |
-    |         |  +---------------------+  |                |
-    |         |  |  Rotas:             |  |                |
-    |         |  |  /api/CentroDistribuicao/...|         |
-    |         |  +---------------------+  |                |
-    |         |                           |                |
-    |         |  +---------------------+  |                |
-    |         |  | Google Maps API     |  |                |
-    |         |  +---------------------+  |                |
-    |         +---------------------------+                |
-    +------------------------------------------------------+
+ ![Diagrama de Arquitetura](https://github.com/alexmmendes/meli.interview/blob/develop/Meli.Interview.Solution/meliinterview.jpeg)
+
 
 # Getting Started
 - Para começar com o projeto, siga estas etapas:
