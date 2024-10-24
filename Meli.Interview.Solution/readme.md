@@ -8,7 +8,7 @@
 
 ## Diagramas de Arquitetura
 
-### Aqui estão alguns possíveis diagramas de arquitetura para o projeto:
+### Diagrama de arquitetura para o projeto:
 
     +------------------------------------------------------+
     |                    Camada de Apresentação            |
