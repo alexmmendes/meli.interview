@@ -15,7 +15,7 @@ namespace Meli.Interview.Application.Services
     public sealed class CentroDistribuicaoService : ICentroDistribuicaoService
     {
 
-        private static string _keyGoogleMaps = "AIzaSyBzDJxUMhMRrxVeysm_7DdcTqEfTqfV8Qw";
+        private static string _keyGoogleMaps = "";
         public List<CentroDistribuicaoDTO> AdicionaListaCentroDistribuicaoFake()
         {
             List<CentroDistribuicaoDTO> centrosDeDistribuicao = DoCentroDistribuicaoFake();
