@@ -10,87 +10,43 @@
 
 ### Aqui estão alguns possíveis diagramas de arquitetura para o projeto:
 
-                                      +---------------+
-                                      |  API Gateway  |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  BFF Layer     |
-                                      |  (Order Processing) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  Application  |
-                                      |  Service Layer  |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  Domain Layer  |
-                                      |  (Business Logic) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  Infrastructure  |
-                                      |  Layer (SQL Server) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  API of Distribution  |
-                                      |  Centers (External API) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  API of Purchases    |
-                                      |  (Express, External API) |
-                                      +---------------+
-
-
-
-### Component Diagram
-                                      +---------------+
-                                      |  OrderProcessor  |
-                                      |  (BFF Layer)     |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  OrderService    |
-                                      |  (Application Service) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  OrderRepository  |
-                                      |  (Infrastructure Layer) |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  DistributionCenterAPI  |
-                                      |  (External API)     |
-                                      +---------------+
-                                             |
-                                             |
-                                             v
-                                      +---------------+
-                                      |  PurchaseAPI      |
-                                      |  (Express, External API) |
-                                      +---------------+
+    +------------------------------------------------------+
+    |                    Camada de Apresentação            |
+    |           (Frontend: Aplicações Web ou Mobile)      |
+    |                     |                                |
+    |                     v                                |
+    |             +---------------------+                  |
+    |             | Meli.Interview.BFF  |                  |
+    |             |  (Backend for       |                  |
+    |             |   Frontends)        |                  |
+    |             +---------------------+                  |
+    |                     |                                |
+    |                     v                                |
+    |         +---------------------------+                |
+    |         |       Microserviços       |                |
+    |         |                           |                |
+    |         |  +---------------------+  |                |
+    |         |  | Meli.Interview.     |  |                |
+    |         |  | Express             |  |                |
+    |         |  +---------------------+  |                |
+    |         |  |  Rotas:             |  |                |
+    |         |  |  /api/produto       |  |                |
+    |         |  |  /api/pedido        |  |                |
+    |         |  +---------------------+  |                |
+    |         |                           |                |
+    |         |  +---------------------+  |                |
+    |         |  | Meli.Interview.     |  |                |
+    |         |  | DistroCenter        |  |                |
+    |         |  +---------------------+  |                |
+    |         |  |  Rotas:             |  |                |
+    |         |  |  /api/CentroDistribuicao/...|         |
+    |         |  +---------------------+  |                |
+    |         |                           |                |
+    |         |  +---------------------+  |                |
+    |         |  | Google Maps API     |  |                |
+    |         |  +---------------------+  |                |
+    |         +---------------------------+                |
+    +------------------------------------------------------+
 
 # Getting Started
 - Para começar com o projeto, siga estas etapas:
